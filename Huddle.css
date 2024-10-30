@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapi.com");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 25px;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.top img {
+  width: 200px;
+  /* height: 18px; */
+  /* padding: 5px; */
+}
+
+.top button {
+  background-color: #fff;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+  color: hsl(322, 100%, 66%);
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.top button:hover {
+  scale: 1.1;
+  cursor: pointer;
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid #fff;
+}
+
+#sec-1 {
+  margin: 20px;
+  margin-top: 150px;
+}
+
+.text-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 40;
+}
+
+.text-btn h1 {
+  font-weight: 700;
+  font-size: 52px;
+  padding: 0;
+  font-family: Poppins;
+  margin: 0;
+}
+
+.text-btn p {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  width: 45%;
+  padding: 0;
+  margin: 0;
+}
+
+.text-btn button {
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 60px;
+  border-radius: 80px;
+  margin: 10px;
+  margin-bottom: 0px;
+  transition: ease-in-out 0.3s;
+}
+
+.text-btn button:hover {
+  background-color: #fff;
+  color: hsl(322, 100%, 66%);
+  scale: 0.9;
+  cursor: pointer;
+}
+
+.mockups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 45px 0;
+  margin-bottom: 70px;
+}
+
+.mockups img {
+  width: 75%;
+}
+
+#values {
+  display: flex;
+  flex-direction: row;
+  margin: 70px 10px;
+  justify-content: space-evenly;
+  gap: 100px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.communities {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.communities img {
+  width: 40px;
+}
+
+.communities h2 {
+  font-size: 80px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.communities p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.messages img {
+  width: 40px;
+}
+
+.messages h2 {
+  font-size: 80px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.messages p {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#grow {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 100px;
+  height: auto;
+  align-items: center;
+  gap: 180px;
+  background: url(/Huddle/Resources/images/bg-section-bottom-desktop-1.svg),
+    url(/Huddle/Resources/images/bg-section-top-desktop-1.svg)
+      linear-gradient(top 50%, bottom 50%);
+}
+
+#grow img {
+  width: 500px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  /* gap: 10px; */
+}
+
+.text h2 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 32px;
+}
+
+.text p {
+  font-weight: 500;
+}
+
+#flowing {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  height: auto;
+  align-items: center;
+  gap: 150px;
+}
+
+#flowing img {
+  width: 500px;
+}
+
+#your-users {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 100px;
+  height: auto;
+  align-items: center;
+  gap: 180px;
+}
+
+#your-users img {
+  width: 500px;
+}
+
+#sec-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+  margin-bottom: 0;
+  gap: 15px;
+}
+
+#sec-2 h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 0;
+}
+
+#sec-2 button {
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 60px;
+  border-radius: 80px;
+  margin: 10px;
+  margin-bottom: 0px;
+  transition: ease-in-out 0.3s;
+}
+
+#sec-2 button:hover {
+  background-color: #fff;
+  color: hsl(322, 100%, 66%);
+  scale: 0.9;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 90px;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 0;
+  /* background: linear-gradient(top url(/Huddle/Resources/images/bg-footer-top-desktop.svg) 10%, #00252e 90%); */
+  background: #00252e fixed;
+  gap: 400px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+}
+
+.left .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.left .text h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.left .text p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.left .reach-out {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px 0;
+  margin-bottom: 20px;
+}
+
+.left .reach-out .phone,
+.email {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  color: #fff;
+  height: auto;
+}
+
+.left .reach-out .phone img,
+.email img {
+  width: 17px;
+  height: 15px;
+}
+
+.left .reach-out .phone p,
+.email p {
+  font-size: 18px;
+  font-weight: 50;
+}
+
+.left .socials {
+  display: flex;
+  flex-direction: row;
+  margin: 45px;
+  margin-left: 0;
+  gap: 25px;
+  align-items: left;
+  margin-bottom: 20;
+}
+
+.left .socials a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  transition: 0.3s ease-in-out;
+}
+
+.left .socials a:hover {
+  color: blue;
+  scale: 0.9;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.right .news {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  width: 60%;
+}
+
+.right .news h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.right .news p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.right .input {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 15px;
+  gap: 30px;
+}
+
+.right .input input {
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+}
+
+.right .input input::placeholder {
+  color: #fff;
+}
+
+.right .input button {
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 7px;
+  height: 40px;
+  width: 150px;
+  border: 1px solid hsl(322, 100%, 66%);
+  font-weight: 600;
+}
+
+.right .input button:hover {
+  background-color: #fff;
+  color: hsl(322, 100%, 66%);
+  scale: 0.9;
+  cursor: pointer;
+}
