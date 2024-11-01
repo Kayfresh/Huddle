@@ -279,7 +279,7 @@
     margin-top: 0px;
     margin: 0;
     /* background: linear-gradient(top url(/Huddle/Resources/images/bg-footer-top-desktop.svg) 10%, #00252e 90%); */
-    background: #00252e;
+    background: #00252e fixed;
     gap: 300px;
   }
 
