@@ -119,7 +119,6 @@
   .communities {
     display: flex;
     flex-direction: column;
-    gap: 5px;
   }
 
   .communities img {
@@ -171,13 +170,13 @@
   }
 
   .content {
-  background-color: #f6fbff;
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 50px 100px;
-  height: auto;
-  align-items: center;
-  gap: 150px;
+    background-color: #f6fbff;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 100px;
+    height: auto;
+    align-items: center;
+    gap: 150px;
   }
 
   .content img {
@@ -280,7 +279,7 @@
     margin-top: 0px;
     margin: 0;
     /* background: linear-gradient(top url(/Huddle/Resources/images/bg-footer-top-desktop.svg) 10%, #00252e 90%); */
-    background: #00252e fixed;
+    background: #00252e;
     gap: 300px;
   }
 
@@ -432,14 +431,112 @@
   }
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  .text-btn h1 {
+    font-size: 45px;
+  }
 
+  .text-btn p {
+    width: 60%;
+    font-size: 22px;
+  }
+
+  .text-btn button {
+    width: 40%;
+  }
+
+  .mockups img {
+    width: 100%;
+  }
+
+  .communities h2,
+  .messages h2 {
+    font-size: 85px;
+  }
+
+  .communities p,
+  .messages p {
+    font-size: 22px;
+  }
+
+  .communities img,
+  .messages img {
+    width: 50px;
+  }
+
+  .content {
+    gap: 100px;
+    padding: 50px 70px;
+  }
+
+  .content img {
+    width: 400px;
+  }
+
+  #flowing {
+    gap: 100px;
+    padding: 100px 70px;
+  }
+
+  #flowing img {
+    width: 400px;
+  }
+
+  .text h2 {
+    font-size: 30px;
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  #sec-2 h2 {
+    font-size: 40px;
+  }
+
+  #sec-2 button {
+    width: 40%;
+  }
+
+  footer {
+    gap: 100px;
+    padding: 50px 50px;
+  }
+
+  .left .text p {
+    font-size: 19px;
+  }
+
+  .right .news p {
+    font-size: 18px;
+  }
+
+  .left .reach-out {
+    gap: 20px;
+  }
+
+  .left .reach-out img {
+    width: 30px;
+    height: 20px;
+  }
+
+  .left .reach-out p {
+    font-size: 20px;
+  }
+
+  .right {
+    gap: 40px;
+  }
+
+  .right .input button {
+    width: 110px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -515,7 +612,7 @@
   .communities h2,
   .messages h2 {
     font-weight: 600;
-    font-size: 65px;
+    font-size: 60px;
   }
 
   .communities p,
@@ -523,14 +620,11 @@
     font-weight: 500;
   }
 
-  #grow, #your-users {
+  #grow,
+  #your-users {
     display: flex;
     flex-direction: column;
     gap: 0;
-  }
-
-  #grow img, #your-users img {
-  
   }
 
   .content {
@@ -543,7 +637,7 @@
   .content img {
     width: 320px;
   }
-  
+
   #flowing {
     display: flex;
     flex-direction: column;
@@ -554,7 +648,7 @@
     margin-bottom: 60px;
   }
 
-  #flowing img{
+  #flowing img {
     width: 320px;
   }
 
@@ -590,7 +684,7 @@
   }
 
   #sec-2 button {
-    width: 60%;
+    width: 75%;
     font-size: 14px;
     padding: 15px 20px;
   }
@@ -690,6 +784,7 @@
     align-items: end;
     gap: 10px;
     margin: 10px;
+    margin-top: 0;
   }
 
   .right .input input {
@@ -713,5 +808,46 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  #sec-1 {
+    margin-top: 60px;
+  }
+
+  .text-btn h1 {
+    font-size: 24px;
+  }
+
+  .text-btn p {
+    font-size: 13px;
+    width: 95%;
+  }
+
+  .text-btn button {
+    width: 80%;
+    font-size: 13px;
+  }
+
+  .content img {
+    width: 300px;
+  }
+
+  .text h2 {
+    font-size: 25px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  #sec-2 button {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .mobilefooterimg {
+    border: 0;
+  }
+
+  footer {
+    margin-top: -30px;
+  }
 }
