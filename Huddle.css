@@ -59,8 +59,8 @@
     font-weight: 700;
     font-size: 55px;
     padding: 0;
-    font-family: Poppins;
     margin: 0;
+    color: #00252e;
   }
 
   .text-btn p {
@@ -70,6 +70,7 @@
     width: 45%;
     padding: 0;
     margin: 0;
+    color: #00252e;
   }
 
   .text-btn button {
@@ -129,11 +130,13 @@
     font-size: 80px;
     margin: 0;
     font-weight: 600;
+    color: #00252e;
   }
 
   .communities p {
     font-size: 20px;
     margin: 0;
+    color: #00252e;
   }
 
   .messages {
@@ -149,27 +152,35 @@
     font-size: 80px;
     margin: 0;
     font-weight: 600;
+    color: #00252e;
   }
 
   .messages p {
     font-size: 20px;
     margin: 0;
     text-align: center;
+    color: #00252e;
   }
 
   #grow {
     display: flex;
-    flex-direction: row-reverse;
-    padding: 100px;
+    flex-direction: column;
+    /* padding: 100px; */
     height: auto;
-    align-items: center;
-    gap: 180px;
-    background: url(/Huddle/Resources/images/bg-section-bottom-desktop-1.svg),
-      url(/Huddle/Resources/images/bg-section-top-desktop-1.svg)
-        linear-gradient(top 50%, bottom 50%);
+    gap: 0;
   }
 
-  #grow img {
+  .content {
+  background-color: #f6fbff;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px 100px;
+  height: auto;
+  align-items: center;
+  gap: 150px;
+  }
+
+  .content img {
     width: 500px;
   }
 
@@ -183,12 +194,14 @@
   .text h2 {
     font-weight: 600;
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
+    color: #00252e;
   }
 
   .text p {
     font-weight: 550;
-    font-size: 16px;
+    font-size: 20px;
+    color: #00252e;
   }
 
   #flowing {
@@ -206,24 +219,19 @@
 
   #your-users {
     display: flex;
-    flex-direction: row-reverse;
-    padding: 100px;
+    flex-direction: column;
+    /* padding: 100px; */
     height: auto;
-    align-items: center;
-    gap: 180px;
-  }
-
-  #your-users img {
-    width: 500px;
+    gap: 0;
   }
 
   #sec-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    margin: 120px 30px;
     padding: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 170px;
     gap: 15px;
   }
 
@@ -231,6 +239,7 @@
     font-weight: 700;
     font-size: 35px;
     margin: 0;
+    color: #00252e;
   }
 
   #sec-2 button {
@@ -256,7 +265,6 @@
   .desktopfooterimg {
     display: flex;
     flex-direction: column;
-    margin: 130px 0 0;
   }
 
   .mobilefooterimg {
@@ -397,6 +405,7 @@
     border-radius: 5px;
     height: 40px;
     width: 300px;
+    text-align: center;
   }
 
   .right .input input::placeholder {
@@ -423,12 +432,14 @@
   }
 }
 
-@media screen and (max-width:992) {
+@media screen and (max-width) {
   * {
     margin: 0;
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -512,22 +523,39 @@
     font-weight: 500;
   }
 
-  #grow,
-  #flowing,
-  #your-users {
+  #grow, #your-users {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #grow img, #your-users img {
+  
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 20px;
+  }
+
+  .content img {
+    width: 320px;
+  }
+  
+  #flowing {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    gap: 60px;
+    gap: 40px;
     margin: 40px 0;
     margin-bottom: 60px;
   }
 
-  #grow img,
-  #flowing img,
-  #your-users img {
-    width: 350px;
+  #flowing img{
+    width: 320px;
   }
 
   .text {
@@ -575,7 +603,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
-    height: 60px;
+    height: 65px;
+    margin-bottom: -20px;
   }
 
   footer {
@@ -681,4 +710,8 @@
   .right .news p {
     font-size: 18px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  
 }
