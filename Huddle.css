@@ -278,7 +278,6 @@
     justify-content: space-between;
     margin-top: 0px;
     margin: 0;
-    /* background: linear-gradient(top url(/Huddle/Resources/images/bg-footer-top-desktop.svg) 10%, #00252e 90%); */
     background: #00252e fixed;
     gap: 300px;
   }
@@ -536,6 +535,174 @@
 
   .right .input button {
     width: 110px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .text-btn h1 {
+    font-size: 35px;
+  }
+
+  .text-btn p {
+    font-size: 18px;
+    width: 70%;
+  }
+
+  .content {
+    gap: 60px;
+    padding: 50px 50px;
+  }
+
+  .content img {
+    width: 350px;
+  }
+
+  .text h2 {
+    font-size: 23px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  #flowing {
+    gap: 60px;
+    padding: 50px 50px;
+  }
+
+  #flowing img {
+    width: 350px;
+  }
+
+  #sec-2 h2 {
+    font-size: 32px;
+  }
+
+  #sec-2 button {
+    width: 45%;
+  }
+
+  .left .text h2 .right .input {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .text-btn h1 {
+    font-size: 24px;
+  }
+
+  .text-btn p {
+    font-size: 15px;
+    width: 85%;
+  }
+
+  .text-btn button {
+    width: 67%;
+    font-size: 14px;
+    padding: 15px 40px;
+  }
+
+  #values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .communities h2,
+  .messages h2 {
+    font-size: 90px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content img {
+    width: 420px;
+  }
+
+  #flowing {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #flowing img {
+    width: 420px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text h2 {
+    font-size: 30px;
+  }
+
+  .text p {
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #sec-2 h2 {
+    font-size: 28px;
+  }
+
+  #sec-2 button {
+    font-size: 15px;
+    width: 65%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left .text {
+    align-items: start;
+  }
+
+  .left .text h2 {
+    font-size: 42px;
+  }
+
+  .left .text p {
+    font-size: 17px;
+    text-align: start;
+  }
+
+  .left .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
   }
 }
 
