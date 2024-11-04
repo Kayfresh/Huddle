@@ -1,10 +1,11 @@
-@import url("https://fonts.google.com");
+@import url("https://fonts.googleapis.com");
 
 @media screen and (max-width: 1440px) {
   * {
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Poppins;
   }
 
   .top {
